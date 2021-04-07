@@ -8,7 +8,7 @@ all: main
 # Produce the final executable
 # Include all required object files
 main: build/main.o #other object files e.g. build/other.o
-	 g++ -o main build/main.o #other object files e.g. build/other.o
+	 g++ -o dist/main build/main.o #other object files e.g. build/other.o
 
 # Build an object file for main
 build/main.o: src/main.cpp

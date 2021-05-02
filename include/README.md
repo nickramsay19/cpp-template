@@ -1,3 +1,3 @@
-# cpp-template/include
+# /include
 
-This folder is intedent for all project header files.
+This folder is intended for project header files.
